@@ -4,6 +4,17 @@
 }
 
 .maxWidthWrapper {
+  width: 100%;
+  isolation: isolate;
+}
+
+.perspective {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 700px;
+  background-color: hsl(195deg, 20%, 86%);
 }
 
 .header {
